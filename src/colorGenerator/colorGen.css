@@ -1,0 +1,45 @@
+form {
+    max-width: 700px;
+    display: flex;
+    place-items: center;
+    flex-wrap: wrap;
+}
+form > input:nth-child(1) {
+    width: 60px;
+    height: 40px;
+}
+form > input:nth-child(2){
+    height: 40px;
+    padding: 0 0 0 10px;
+    width: 300px;
+    border: 0;
+}
+form > button {
+    height: 40px;
+    border: 0;
+    border-radius: 2px;
+    width: 80px;
+    color: white;
+    cursor: pointer;
+}
+ div {
+    margin-top: 40px;
+    height: 100px;
+    border-radius: 10px;
+     cursor: pointer;
+}
+ .alertparent {
+     position: absolute;
+     width: 100%;
+     text-align: center;
+     top: 0;
+     left: 0;
+ }
+ .alertMsg {
+     margin: auto;
+     width: max-content;
+     padding:10px 20px ;
+     text-align: center;
+     border:2px solid black ;
+     border-radius: 10px;
+ }
