@@ -34,32 +34,12 @@ npm install
 
   The ColorGen component is designed to be used within your application to manage color codes. It features an input field for both color pickers and text input, a live preview of the color, and a button to submit and copy the color code to the clipboard. The Alert component is used to display a notification message.
 
-  ```
-  import React, { useState } from 'react';
-import ColorGen from './path/to/ColorGen';
-import Alert from './path/to/Alert';
+  To start the development server, run:
 
-function App() {
-  const [alert, setAlert] = useState(false);
-
-  const handleButtonClick = () => {
-    // Logic to trigger the alert
-    setAlert(true);
-  };
-
-  return (
-    <div>
-      <h1>Your React App</h1>
-      <button onClick={handleButtonClick}>Copy Color</button>
-      {alert && <Alert setAlert={setAlert} />}
-      <ColorGen />
-    </div>
-  );
-}
-
-export default App;
-
-  ```
+```
+npm run dev
+```
+Visit http://localhost:3000 in your browser to see the application.
 ## Props 
 The Alert component accepts the following prop:
 
